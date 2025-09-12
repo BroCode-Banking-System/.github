@@ -1,83 +1,77 @@
-## Hi there 👋
-
-
 # BroCode Banking System
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)  
-[![Build Status](https://img.shields.io/github/actions/workflow/status/BroCode-Banking-System/ci.yml)](#)  
-[![Issues](https://img.shields.io/github/issues/BroCode-Banking-System)](#issues)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Node.js version](https://img.shields.io/badge/node-%3E=%2018.0.0-green.svg)](https://nodejs.org/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-%3E=%204.0-blue.svg)](https://www.mongodb.com/)  
 
 ---
 
 ## Table of Contents
 
-- [About](#about)  
+- [Overview](#overview)  
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Running the Application](#running-the-application)  
-- [Usage](#usage)  
 - [Architecture](#architecture)  
-- [Contributing](#contributing)  
+- [Setup & Installation](#setup--installation)  
+- [Configuration](#configuration)  
+- [Usage](#usage)  
+- [API Documentation](#api-documentation)  
 - [Testing](#testing)  
 - [Deployment](#deployment)  
-- [Roadmap](#roadmap)  
+- [Contributing](#contributing)  
 - [License](#license)  
 - [Contact](#contact)  
 
 ---
 
-## About
+## Overview
 
-BroCode Banking System is a [describe your system — e.g. “modern, secure banking backend and frontend tools”] built to provide [key value proposition, e.g. fast transactions, scalability, high security]. It’s designed to [mission or goal].
+**BroCode Banking System** is a MERN-stack application designed for secure banking operations. It supports user authentication, account management, financial transactions, and administrative dashboards. The system aims to provide a robust foundation for banking services with scalability and extensibility in mind.
 
 ---
 
 ## Features
 
-- Account creation, login/logout, password recovery  
-- Money transfers between accounts (internal, external)  
+- User registration & login (JWT / session)  
+- Profile management  
+- Account creation (savings, checking, etc.)  
+- Transactions: deposit, withdrawal, transfer  
 - Transaction history & statements  
-- Multi-factor / 2FA authentication  
-- Role-based access (e.g. admin, user)  
-- Audit & logging  
-- Responsive frontend (if applicable)  
-- API-first architecture (if applicable)  
+- Role-based access: customer vs admin  
+- Dashboard with analytics / reporting  
+- Input validation and security (e.g., sanitization, rate limiting)  
 
 ---
 
 ## Tech Stack
 
-| Component | Technology |
-|-----------|-------------|
-| Backend   | e.g. Node.js / Express / Spring Boot / Django |
-| Database  | e.g. PostgreSQL / MySQL / MongoDB |
-| Frontend  | e.g. React / Vue.js / Angular / Svelte |
-| Authentication | e.g. JWT / OAuth2 / LDAP |
-| DevOps / CI/CD | e.g. GitHub Actions / Docker / Kubernetes |
-| Testing  | e.g. Jest / Mocha / PyTest / JUnit |
+| Layer       | Technology                                |
+|--------------|---------------------------------------------|
+| Front-end    | React.js (Hooks, Context or Redux)         |
+| Back-end     | Node.js, Express.js                        |
+| Database     | MongoDB with Mongoose                      |
+| Auth / Security | JWT, bcrypt, HTTPS, dotenv              |
+| Testing      | Jest / Mocha, Supertest                    |
+| Deployment   | Docker, CI/CD (GitHub Actions), AWS / Heroku / DigitalOcean, etc. |
 
 ---
 
-## Getting Started
+## Architecture
 
-### Prerequisites
+A high-level diagram of how components interact:
 
-- [List of software required, e.g.:]  
-  - Node.js ≥ 14.x  
-  - Git  
-  - Docker (optional)  
-  - Environment variables setup  
+1. Client (React) ⇄ REST API (Node.js + Express)  
+2. API handles authentication, authorization, validation  
+3. MongoDB stores users, accounts, transactions  
+4. Admin dashboard for managing users, viewing reports  
+5. Logging, error handling & monitoring  
 
-### Installation
+---
 
-```bash
-# clone the repository
-git clone https://github.com/BroCode-Banking-System/your-repo.git
+## Setup & Installation
 
-cd your-repo
+1. **Clone the repository**
 
-# install dependencies (backend/frontend)
-npm install   # or `yarn` / pip install -r requirements.txt etc.
+   ```bash
+   git clone https://github.com/BroCode-Banking-System/brocode-banking-system.git
+   cd brocode-banking-system
