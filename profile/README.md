@@ -1,4 +1,4 @@
-# 📂 ZeroCode / **Project Name**
+# 📂 ZeroCode Bank
 
 [![License](https://img.shields.io/github/license/ZeroCode/Project-Name)](LICENSE)  
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ZeroCode/Project-Name/ci.yml)](https://github.com/ZeroCode/Project-Name/actions)  
@@ -14,22 +14,14 @@
 - [Features](#-features)  
 - [Tech Stack](#-tech-stack)  
 - [Getting Started](#-getting-started)  
-- [Setup & Installation](#-setup--installation)  
-- [Usage](#-usage)  
-- [API Endpoints / Routes](#api-endpoints--routes) *(if applicable)*  
-- [Folder Structure](#folder-structure)  
-- [Configuration](#configuration)  
-- [Testing](#testing)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+- [Setup & Installation](#-setup--installation) 
 
 ---
 
 ## 🧐 About
 
-**Project Name** is a [brief description: what it does, what problem it solves].  
-Designed & developed by ZeroCode with a focus on [e.g. performance, scalability, code readability, etc.].  
+**ZeroCode Bank** is a .  
+Designed & developed by ZeroCode with a focus on performance, scalability, code readability, etc.  
 
 ---
 
