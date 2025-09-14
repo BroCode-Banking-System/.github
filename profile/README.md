@@ -1,5 +1,5 @@
 # 📂 ZeroCode Bank
-
+<!--
 [![License](https://img.shields.io/github/license/ZeroCode/Project-Name)](LICENSE)  
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ZeroCode/Project-Name/ci.yml)](https://github.com/ZeroCode/Project-Name/actions)  
 [![Contributors](https://img.shields.io/github/contributors/ZeroCode/Project-Name)](https://github.com/ZeroCode/Project-Name/graphs/contributors)  
@@ -79,3 +79,4 @@ npm install
 # Install frontend dependencies
 cd ../frontend
 npm install
+-->
