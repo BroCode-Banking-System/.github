@@ -1,11 +1,4 @@
-<h1 align="center">ZeroCode Bank</h1>
-<!--
-[![License](https://img.shields.io/github/license/ZeroCode/Project-Name)](LICENSE)  
-[![Build Status](https://img.shields.io/github/actions/workflow/status/ZeroCode/Project-Name/ci.yml)](https://github.com/ZeroCode/Project-Name/actions)  
-[![Contributors](https://img.shields.io/github/contributors/ZeroCode/Project-Name)](https://github.com/ZeroCode/Project-Name/graphs/contributors)  
-[![Issues](https://img.shields.io/github/issues/ZeroCode/Project-Name)](https://github.com/ZeroCode/Project-Name/issues)  
-[![Pull Requests](https://img.shields.io/github/issues-pr/ZeroCode/Project-Name)](https://github.com/ZeroCode/Project-Name/pulls)  
-
+<h1 align="center">ZeroCode</h1>
 ---
 
 ## 🚀 Table of Contents
