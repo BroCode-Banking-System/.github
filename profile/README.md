@@ -58,25 +58,19 @@ Each project should have its own README, issue template, contribution guidelines
   - Ensure code is well-documented.  
   - Follow the coding style/setup in that repo.  
 
----
-
-## 📜 License & Legal
-
-All projects are released under the **[MIT License](link-to-license)** unless otherwise stated in individual repositories. Please review each repository’s LICENSE file.  
-
----
+<!---
 
 ## 🔗 Useful Links
 
 - [BroCode Banking System on GitHub](https://github.com/BroCode-Banking-System)  
-- [ZeroCode Org Website / Blog] *(if applicable)*  
+- [ZeroCode Org Website](
 - [Code of Conduct](link-to-code-of-conduct)  
 - [Contribution Guidelines](link-to-contribution-guidelines)  
 
+--->
 ---
 
 Thanks for being here 💡  
 Let’s build something great together with **ZeroCode**!
 
-
-
+---
