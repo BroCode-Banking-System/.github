@@ -1,4 +1,4 @@
-# 📂 ZeroCode Bank
+<h1 align="center">ZeroCode Bank</h1>
 <!--
 [![License](https://img.shields.io/github/license/ZeroCode/Project-Name)](LICENSE)  
 [![Build Status](https://img.shields.io/github/actions/workflow/status/ZeroCode/Project-Name/ci.yml)](https://github.com/ZeroCode/Project-Name/actions)  
