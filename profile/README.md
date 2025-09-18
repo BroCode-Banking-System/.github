@@ -1,4 +1,4 @@
-<!--<h1 align="center">ZeroCode</h1>
+<h1 align="center">ZeroCode</h1>
 
 ---
 
